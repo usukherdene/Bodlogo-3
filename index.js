@@ -3,7 +3,7 @@
 // age: 20,
 // isStudent: true,
 // }
-//
+
 // console.log(student);
 
 // const fruits=["Алим", "Банана", "Жүрж"]
@@ -231,6 +231,120 @@
 // }
 // student.scores.math < 80 ? console.log(student.scores.math + 10) : console.log("Нэмэлт оноо шаардлагагүй", student.scores.math);
 
-const names = ["Бат", "Ану"]
-const a = names[0]
-const b = names[0]
+// const names = ["Бат", "Ану"];
+// const temp1 = names[0];
+// const temp2 = names[1];
+// names[0] = temp2
+// names[1] = temp1
+// console.log(names);
+ 
+// const fruits = ["Алим", "Банана", "Жүрж"]
+// if (fruits.includes("Банана")) {
+//     console.log("Банана байна");
+// }else {
+//     console.log("Банана алга");
+// }
+
+// const students = ["Бат", "Ану", "Болд", "Сараа"]
+// console.log(students.indexOf("Болд"));
+
+// const order = { 
+//     product: { 
+//         price: 5000, 
+//         quantity: 3 
+//     }, 
+//     delivery: { 
+//         fee: 2500 
+//     } 
+// }
+// const orderTotal = order.product.price * order.product.quantity + order.delivery.fee
+// if (order.price * order.quantity >= 20000) {
+//     order.delivery.fee == 0
+//     console.log(orderTotal);
+    
+// }else {
+//     console.log(orderTotal);
+// }
+
+// const user1 = { 
+//     name: "Болд", 
+//     age: 20 
+// }
+// const user2 = { 
+//     email: "bold@example.com", 
+//     city: "Улаанбаатар"
+// }
+// console.log(Object.assign(user1, user2));
+
+// const cart = []
+// if (cart.length > 0) {
+//     console.log("Сагсанд бараа байна");
+// }else {
+//     console.log("Сагс хоосон");
+// }
+
+// const numbers = [35, 20]
+// if (numbers[0] > numbers[1]) {
+//     console.log(numbers[0]);
+// }else if (numbers[0] < numbers[1]) {
+//     console.log(numbers[1]);
+// }else {
+//     console.log("Хоёр тоо тэнцүү");
+// }
+
+// const students = ["Бат", "Ану"]
+// const newStudent = "Сараа"
+// if (students.includes(newStudent)) {
+//     console.log("Энэ нэр бүртгэлтэй байна");
+// }else {
+//     students.push(newStudent)
+// }
+// console.log(students);
+
+// const user1 = { 
+//     firstname: "Ану", 
+//     age: 18
+// }
+// const user2 = { 
+//     email: "anu@example.com", 
+//     city: "Улаанбаатар" 
+// }
+// const user = {...user1, ...user2};
+// console.log(user);
+
+// const groupA = ["Бат", "Ану"]
+// const groupB = ["Болд", "Сараа"]
+// const allStudents = groupA.concat(groupB)
+// console.log(allStudents);
+
+// const original = [10, 20, 30]
+// const copied = [...original]
+// copied[0] = 99
+// console.log(original, copied);
+
+// const user = { 
+//     firstname: "Сараа", 
+//     age: 22, 
+//     email: "saraa@example.com" 
+// }
+// const {firstname, age, ...profile} = user
+// profile.firstname = "Бат"
+// console.log(profile.firstname, user.firstname);
+
+// const colors = ["Улаан", "Ногоон", "Цэнхэр", "Шар"]
+// console.log(colors.splice(1));
+
+// const days = ["Даваа", "Лхагва"];
+// days.splice(1, 0, "Мягмар");
+// console.log(days);
+
+// const words = ["Би", "JavaScript", "сурч", "байна."]
+// const sentence = words.join(" ")
+// console.log(sentence);
+
+// const students = [{ name: "Бат", score: 75 }, { name: "Ану", score: 90 }]
+// if (students[1].score >= 90) {
+//     console.log(`Эхний сурагчийн оноо ${students[0].score + 10} болж, "Ану маш сайн"`);
+// }else {
+//     console.log(`Эхний сурагчийн оноо ${students[0].score + 10} болж, "Ану хичээгээрэй"`);
+// }
